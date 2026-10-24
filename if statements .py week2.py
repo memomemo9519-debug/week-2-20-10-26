@@ -5,4 +5,4 @@ print(book)
 if book == "adventure" or book == "comedy":
     print(f"I like {book} books")
 else:
-    print("I do not like reading books.")
+    print(f"I do not like reading books.")

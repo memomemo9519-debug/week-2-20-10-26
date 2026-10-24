@@ -1,8 +1,8 @@
 book= input("What type of book is this?")
 #print the user input
 print(book)
-#check the user input againts our list of preferred genres
-if book == "adventure" or book== "comedy":
+#check the user input against our list of preferred genres
+if book == "adventure" or book == "comedy":
     print(f"I like {book} books")
 else:
-    print("Finished reading book.")
+    print("I do not like reading books.")
